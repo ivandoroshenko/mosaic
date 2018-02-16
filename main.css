@@ -1,0 +1,46 @@
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+.img-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 454px;
+    z-index: 2;
+}
+
+img {
+    
+    display: block;
+}
+
+.bg {
+    width: 100%;
+}
+
+.slide {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform .5s linear;
+}
+
+.slide1 {
+   transform: translateX(20%);
+}
+
+.slide3 {
+    transform: translateX(-10%);
+ }
+
+ .slide2 {
+    transform: translateX(-10%);
+ }
+
+ .img-wrap:hover .slide{
+    transform: translateX(0);
+ } 
