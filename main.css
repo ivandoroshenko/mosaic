@@ -13,12 +13,12 @@ body {
 }
 
 img {
-    
+    width: 100%;
     display: block;
 }
 
 .bg {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .slide {
@@ -26,7 +26,9 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    transition: transform .5s linear;
+    /* optional effect with opacity */
+    /* opacity: 0.75; */
+    transition: transform 0.75s ease-out;
 }
 
 .slide1 {
@@ -43,4 +45,5 @@ img {
 
  .img-wrap:hover .slide{
     transform: translateX(0);
+    opacity: 1;
  } 
