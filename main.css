@@ -5,6 +5,7 @@ body {
     background: #33080c;
     position: relative;
     z-index: 0;
+    overflow: hidden;
 }
 .img-wrap {
     position: absolute;
